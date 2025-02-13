@@ -1,0 +1,60 @@
+""" add(), clear(), discard(), pop(), remove(), and update().
+
+
+set defintion :
+A set is an unordered collection with no duplicate elements. 
+Basic uses include eliminating duplicate entries. 
+Set object does not support indexing. 
+Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+
+union()
+performs the union operation on two or more Python sets, it returns all the items that are in any of those sets.
+
+intersection()
+This method takes as argument sets, and returns the common 
+ items in all the sets.
+
+
+
+difference()
+This method returns the difference of two or more sets. 
+
+
+symmetric_difference()
+This method returns all the items that are unique to each set.
+
+isdisjoint()
+This method returns True if two sets have a null intersection. 
+
+issubset()
+This method returns true if the set in the argument contains this set.
+>>> {1,2}.issubset({1,2,3})
+Output
+True
+
+Membership operator
+
+We can apply the ‘in’ and ‘not in’ python operators on items
+ for a set. This tells us whether they belong to the set.
+>>> 'p' in {'a','p','p','l','e'}
+Output
+True
+>>> 0 not in {'0','1'}
+Output
+True
+
+x = {12,3,4,45}
+y = {2,4,6,78}
+
+x.union(y)
+{2, 3, 4, 6, 12, 45, 78}
+x.intersection(y)
+{4}
+x.difference(y)    # elements present in x but not in y
+{3, 12, 45}
+y.difference(x)    # elements present in y but not in x
+{2, 6, 78}
+x.symmetric_difference(y)   #returns unique elements in both
+{2, 3, 6, 12, 45, 78}
+
+"""
