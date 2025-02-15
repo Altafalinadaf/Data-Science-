@@ -1,0 +1,8 @@
+Raising an Exception
+
+We can force Python to generate an Exception using the keyword raise.
+This is normally done in those situations where we want Python to throw an exception in a particular condition of our choice.
+
+Syntax:
+	raise ExceptionClassName
+	raise ExceptionClassName(message)
