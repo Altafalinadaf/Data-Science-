@@ -1,7 +1,7 @@
 while True:
     try:
         a= int(input("enter num 1 : "))
-        b=int(input("enter the num 2"))
+        b=int(input("enter num 2 : "))
 
         if a<=0 or b<0 :
             raise Exception ("negative number not allowed! please try again ")
