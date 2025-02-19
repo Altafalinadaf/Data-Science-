@@ -8,7 +8,7 @@ while True:
             c=a/b
             print("div c is ",c)
             break
-
+        print(a/b)
 
     except ValueError:
         print("please inter the integer value ");
