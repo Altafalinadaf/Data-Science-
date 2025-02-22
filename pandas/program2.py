@@ -7,7 +7,7 @@ print(df)
 # using apply()
 
 # Apply a function to increase 'Price' by 10%
-df['Price']=df['Price'].apply(lambda x:x*1.10)
+df['PriceIncrement']=df['Price'].apply(lambda x:x*1.10)
 print(df)
 
 

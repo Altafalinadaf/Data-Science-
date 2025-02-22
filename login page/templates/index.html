@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Form</title>
+</head>
+
+<body style="text-align: center; background-color: aqua; color: blueviolet;">
+    <form action="/submit" method="post">
+        <fieldset>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+
+</html>

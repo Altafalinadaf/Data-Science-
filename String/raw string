@@ -1,0 +1,20 @@
+"""Raw Strings
+
+A raw string literal is preceded by r or R, which specifies that escape sequences in the associated string are not translated. The backslash character is left in the string:
+>>> print('foo\nbar') 
+           foo 
+           bar
+>>> print(r'foo\nbar') 
+           foo\nbar
+
+
+ Raw strings don't treat the backslash as a special character at all. Every character you put into a raw string stays the way you wrote it:
+	print ('C:\\nowhere' )
+This would print following result:
+	C:\nowhere 
+Now let's make use of raw string. We would put expression in r'expression' as follows:
+	print (r'C:\\nowhere' )
+This would print following result:
+	C:\\nowhere
+
+"""
